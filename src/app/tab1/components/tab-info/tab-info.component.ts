@@ -10,7 +10,6 @@ export class TabInfoComponent implements OnInit {
 
   text = '...';
   constructor(private infoEntryNotificationService: InfoEntryNotificationService) { }
-
   ngOnInit() {
     this.infoEntryNotificationService.notification().subscribe((data) => {
       this.text = data.text;

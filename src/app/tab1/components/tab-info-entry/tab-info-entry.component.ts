@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { InfoEntryNotificationService } from '../../services/info-entry-notification.service';
-//import { Events } from '@ionic/angular';
 
 @Component({
   selector: 'app-tab-info-entry',
