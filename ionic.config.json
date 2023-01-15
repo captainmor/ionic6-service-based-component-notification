@@ -1,0 +1,7 @@
+{
+  "name": "ionic6-service-based-component-notification",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
